@@ -3,14 +3,143 @@
 
 
 
+/*****************************////// Insights Page \\\\\\**************************/
 
+
+
+/*****////// Buttons for each article \\\\\\*****/
+function readMoreOneClicked(){
+    $('.articleOne').on('click','#readMoreOne', function() {
+        $('.articleList').hide();
+        $('.expandedArticle').show();
+        $(articleOne);
+    });
+}
+
+
+
+function readMoreTwoClicked(){
+    $('.articleTwo').on('click','#readMoreTwo', function() {
+        $('.articleList').hide();
+        $('.expandedArticle').show();
+        $(articleTwo);
+    });
+}
+
+
+
+function readMoreThreeClicked(){
+    $('.articleThree').on('click','#readMoreThree', function() {
+        $('.articleList').hide();
+        $('.expandedArticle').show();
+        $(articleThree);
+    });
+}
+
+
+
+function readMoreFourClicked(){
+    $('.articleFour').on('click','#readMoreFour', function() {
+        $('.articleList').hide();
+        $('.expandedArticle').show();
+        $(articleFour);
+    });
+}
+
+
+/*****////// Contents of each Article \\\\\\*****/
+function articleOne() {
+    $('#articleTitle, .articleContentFull').empty();
+
+    $('#articleTitle').append(`
+        <h1>Keeping Your Investment Plan on Track</h1>
+        <time datetime="2019-12-13">December 13, 2019</time>
+        <span>::before</span>
+        <span>Investments</span>
+    `); // this will amend the title of the article once displayed on screen
+
+    $('.articleContentFull').append(`
+        <p> THIS WILL BE WHERE A ARTICLE WILL APPEAR ONCE READ MORE IS CLICKED.
+        <span><br><span>
+        Putant malorum recteque pro ad, oratio vituperata constituam eum at. No eleifend sapientem ius,
+        usu praesent gubergren quaerendum ex, quo no denique adipisci postulant.
+        </p>
+    `); // type in the article here use the <p> tag for each paragraph
+}
+
+
+
+function articleTwo() {
+    $('#articleTitle, .articleContentFull').empty();
+
+    $('#articleTitle').append(`
+        <h1>Navigation Choppy Waters</h1>
+        <time datetime="2019-12-13">December 13, 2019</time>
+        <span>::before</span>
+        <span>Investments</span>
+    `); // this will amend the title of the article once displayed on screen
+
+    $('.articleContentFull').append(`
+        <p> THIS WILL BE WHERE A ARTICLE WILL APPEAR ONCE READ MORE IS CLICKED.
+        <span><br><span>
+        Putant malorum recteque pro ad, oratio vituperata constituam eum at. No eleifend sapientem ius,
+        usu praesent gubergren quaerendum ex, quo no denique adipisci postulant.
+        </p>
+    `); // type in the article here use the <p> tag for each paragraph
+
+}
+
+
+
+function articleThree() {
+    $('#articleTitle, .articleContentFull').empty();
+
+    $('#articleTitle').append(`
+        <h1>Retiring? Keep Your Budget in Check</h1>
+        <time datetime="2019-12-13">December 13, 2019</time>
+        <span>::before</span>
+        <span>Investments</span>
+    `); // this will amend the title of the article once displayed on screen
+
+    $('.articleContentFull').append(`
+        <p> THIS WILL BE WHERE A ARTICLE WILL APPEAR ONCE READ MORE IS CLICKED.
+        <span><br><span>
+        Putant malorum recteque pro ad, oratio vituperata constituam eum at. No eleifend sapientem ius,
+        usu praesent gubergren quaerendum ex, quo no denique adipisci postulant.
+        </p>
+    `); // type in the article here use the <p> tag for each paragraph
+
+}
+
+
+
+function articleFour() {
+    $('#articleTitle, .articleContentFull').empty();
+
+    $('#articleTitle').append(`
+        <h1>Talking to Your Kids About Money</h1>
+        <time datetime="2019-12-13">December 13, 2019</time>
+        <span>::before</span>
+        <span>Investments</span>
+    `); // this will amend the title of the article once displayed on screen
+
+    $('.articleContentFull').append(`
+        <p> THIS WILL BE WHERE A ARTICLE WILL APPEAR ONCE READ MORE IS CLICKED.
+        <span><br><span>
+        Putant malorum recteque pro ad, oratio vituperata constituam eum at. No eleifend sapientem ius,
+        usu praesent gubergren quaerendum ex, quo no denique adipisci postulant.
+        </p>
+    `); // type in the article here use the <p> tag for each paragraph
+
+}
 
 
 
 /*****************************////// About page sub nav \\\\\\**************************/
 
 
-
+/*****////// Middle nav buttons \\\\\\*****/
+//team button middle of page
 function teamDisplaySub(){
     $('.subNavAbout').on('click','#teamSub', function() {
         $(teamDisplay);
@@ -18,7 +147,7 @@ function teamDisplaySub(){
 }
 
 
-
+// culture button middle of page
 function cultureDisplaySub(){
     $('.subNavAbout').on('click','#cultureSub', function() {
         $(cultureDisplay);
@@ -27,25 +156,18 @@ function cultureDisplaySub(){
 
 
 
-// this will display the culture page
+/*****////// About page content \\\\\\*****/
+
+/* this will change the wording on the top graphic and change the lower portion of the page below the nav
+to display the material for culture page
+ */
 function cultureDisplay() {
-    $('#upperAbout,#middleAbout,#lowerAbout').empty();
+    $('#topWordsAbout,#lowerAbout').empty();
     $(teamDisplaySub);
     $(cultureDisplaySub);
 
-    $('#upperAbout').append(`
-        <div class="cultureTop">
+    $('#topWordsAbout').append(`
             <h1>We serve as your financial compass helping customize a plan to fit your goals</h1>
-        </div>
-    `);
-
-    $('#middleAbout').append(`
-        <nav class="subNavAbout">
-            <ul>
-                <li id="teamSub"><a href="#AboutTeam">Team</a></li>
-                <li id="cultureSub"><a href="#AboutCulture">Culture</a></li>
-            </ul>
-        </nav>
     `);
 
     $('#lowerAbout').append(`
@@ -55,7 +177,7 @@ function cultureDisplay() {
                 GROW AND PRESERVE THEIR WEALTH LONG TERM. WHETHER YOU ARE LOOKING FORWARD TO RETIREMENT,
                 PAYING OFF COLLEGE DEBT, CARING FOR AN OLDER PARENT, OR PLANNING FOR THE FUTURE, WE HELP
                 YOU CREATE SOUND FINANCIAL STRATEGIES WITH EXTRAORDINARY PERSONAL SERVICE.
-            </strong>>
+            </strong>
         </h4>
             <h2>Benefits of Working With Us</h2>
             <h3>We strive to exceed your expectations every day.</h3>
@@ -70,24 +192,17 @@ function cultureDisplay() {
 
 
 
-// this will display the team page
+/* this will change the wording on the top graphic and change the lower portion of the page below the nav
+to display the material for team members page
+ */
 function teamDisplay() {
-    $('#upperAbout,#middleAbout,#lowerAbout').empty();
+    $('#topWordsAbout,#lowerAbout').empty();
     $(teamDisplaySub);
     $(cultureDisplaySub);
 
-    $('#upperAbout').append(`
+    $('#topWordsAbout').append(`
         <h1>Your Valuable Team at</h1>
         <h1>Kimmel Financial Advisors</h1>
-    `);
-
-    $('#middleAbout').append(`
-        <nav class="subNavAbout">
-            <ul>
-                <li id="teamSub"><a href="#AboutTeam">Team</a></li>
-                <li id="cultureSub"><a href="#AboutCulture">Culture</a></li>
-            </ul>
-        </nav>
     `);
 
     $('#lowerAbout').append(`
@@ -164,8 +279,13 @@ function aboutDisplay(){
 //shows insight
 function insightDisplay(){
     $('.constantHead').on('click','#insights', function() {
-        $('.insightsWrapper').show();
-        $('.homeWrapper, .aboutWrapper, .eventsWrapper, .connectWrapper, .loginWrapper').hide();
+        $('.insightsWrapper, .articleList').show();
+        $('.homeWrapper, .aboutWrapper, .eventsWrapper, .connectWrapper, .loginWrapper, .expandedArticle').hide();
+        $(readMoreOneClicked); // this call initializes the read more button on each article
+        $(readMoreTwoClicked); // this call initializes the read more button on each article
+        $(readMoreThreeClicked); // this call initializes the read more button on each article
+        $(readMoreFourClicked); // this call initializes the read more button on each article
+
         //$('.toggleCls').removeClass("toggleCls");
         console.log('insightDisplay ran.');
     });
