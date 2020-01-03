@@ -6,54 +6,62 @@
         <meta name="viewport" content="width=device-width">
         <title>James F. Kimmel</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
 
     </head>
 
     <body>
+
         <header class="constantHead">
             <h1 id="companyName"><a href="#Home">James F. Kimmel & Associates, Inc</a></h1>
             <nav class="mainNavbar">
-                <ol id="mainNavItems">
+                <div class="hamIcon">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                </div>
+                <ol class="mainNavItems">
                     <li id="about"><a href="#About">ABOUT</a></li>
-                    <li id="insights"><a href="#Insights">INSIGHTS</a></li>
-                    <li id="events"><a href="#Events">EVENTS</a></li>
+                   <!-- <li id="insights"><a href="#Insights">INSIGHTS</a></li>
+                    <li id="events"><a href="#Events">EVENTS</a></li>-->
                     <li id="connect"><a href="#Connect">CONNECT</a></li>
                     <li id="login"><a href="#Login">CLIENT LOGIN</a></li>
                 </ol>
             </nav>
         </header>
 
-
-
-
         <div class="homeWrapper">
             <div class="mainTop">
-                <h1>Every Cent Counts.</h1>
+                <img src="images/mainHome.jpg" alt="jar with quarters in it" class="mainHomeImage">
+                    <h1>Every Cent Counts.</h1>
             </div>
             <div class="mainBottom">
                 <main class="contentContainer">
-                    <blockqoute>
+                    <blockquote class="mainQoute">
                         <h2>We Assist You</h2>
-                        <p>in Saving and Accumulating Money on a Tax-Deferred Basis</p>
-                    </blockqoute>
+                        <p id="qouteHead">in Saving and Accumulating Money on a Tax-Deferred Basis</p>
+                    </blockquote>
 
-                    <section id="middleBoxHome">
-                        <section>
-                            <h3>Partnering with You</h3>
-                            <h4>RELATIONSHIPS BUILT ON </h4>
-                            <h4>TRUST, COMPETENT ADVICE,</h4>
-                            <h4>COMMUNICATION, AND SERVICE.</h4>
+                    <section class="middleBoxHome">
+                        <section class="partnerSection">
+                            <img src="images/table.jpg" alt="table with people around." class="partnerImageMain">
+                            <h3 id="partnerHeader">Partnering with You</h3>
+                            <h4 id="partnerDetails">RELATIONSHIPS BUILT ON </h4>
+                            <h4 id="partnerDetails">TRUST, COMPETENT ADVICE,</h4>
+                            <h4 id="partnerDetails">COMMUNICATION, AND SERVICE.</h4>
                         </section>
                     </section>
 
-                    <section id="endBoxHome">
-                        <section>
-                            <h3>Clear Vision & Direction</h3>
-                            <h4>ACCOUNTING STRATEGIES BASED ON</h4>
-                            <h4>OVER 35 YEARS OF TAX</h4>
-                            <h4>KNOWLEDGE AND EXPERIENCE.</h4>
+                    <section class="endBoxHome">
+                        <section class="visionSection">
+                            <img src="images/pier.jpg" alt="pier extending out in to clear blue ocean." class="visionImageMain">
+                            <h3 id="visionHeader">Clear Vision & Direction</h3>
+                            <h4 id="visionDetails">ACCOUNTING STRATEGIES BASED ON</h4>
+                            <h4 id="visionDetails">OVER 35 YEARS OF TAX</h4>
+                            <h4 id="visionDetails">KNOWLEDGE AND EXPERIENCE.</h4>
                         </section>
                     </section>
                 </main>
@@ -63,8 +71,6 @@
 
         </div>
 
-
-
         <div class="aboutWrapper">
                 <section id="upperAbout">
                     <div id="topWordsAbout"></div>
@@ -72,22 +78,21 @@
                 <section id="middleAbout">
                     <nav class="subNavAbout">
                         <ul>
-                            <li id="teamSub"><a href="#AboutTeam">Team</a></li>
+                            <li id="aboutSub"><a href="#AboutTeam">Team</a></li>
+                            <hr>
                             <li id="cultureSub"><a href="#AboutCulture">Culture</a></li>
                         </ul>
                     </nav>
                 </section>
                 <section id="lowerAbout"></section>
         </div>
-
-
-
+<!--
         <div class="insightsWrapper">
             <main class="articleList">
-                <section class="insightTitle">
+                <header class="insightTitle">
                     <h4>BRIDGING THE GAP</h4>
                     <h1>Between industry news and personal experience.</h1>
-                </section>
+                </header>
 
                 <article class="articleOne">
                     <h3>Keeping Your Investment Plan on Track</h3>
@@ -128,9 +133,8 @@
 
             <div class="expandedArticle">
                 <main>
-                    <section id="articleTitle"></section>
-                    <article class="articleContentFull">
-                    </article>
+                    <header id="articleTitle"></header>
+                    <article class="articleContentFull"></article>
 
                     <br>
 
@@ -146,31 +150,131 @@
 
         </div>
 
-
-
         <div class="eventsWrapper">
+            <main class="eventsMain">
+                <header class="eventsTop">
+                    <h4>JOIN US</h4>
+                    <h1>Upcoming Events</h1>
+                </header>
+                <div class="eventList">
+                    <div class="eventOne">
+                        <h3>Lunch & Learn: Estate Planning 101</h3>
+                        <time datetime=">2019-12-13">December 13, 2019</time>
+                        <button type="button" id="eventOneButton">Read More</button>
+                    </div>
+
+                    <div class="eventTwo">
+                        <h3>Halo Animal Shelter Supply Drive</h3>
+                        <time datetime=">2019-12-13">December 19, 2019</time>
+                        <button type="button" id="eventTwoButton">Read More</button>
+                    </div>
+                </div>
+            </main>
+
+
+            <main class="expandedEventOne">
+                <header>
+                   <h1>Lunch & Learn: Estate Planning 101</h1>
+                    <time datetime=">2019-12-13">December 13, 2019</time>
+                </header>
+                <section>
+                    <h3>Date: Sept 20</h3>
+                    <h3>Time: 11:30 - 1:00 PM</h3>
+                    <h3>Location: Washington Community Library</h3>
+                </section>
+                <article>
+                    <p>Estate planning was once a buzz phrase reserved only for the wealthy. But that’s just no
+                        longer the case. Estate planning is important for every family, individual and business.
+                        Anyone who has assets, no matter how small, or wants their medical wishes carried out should
+                        have an estate plan.
+                    </p>
+                    <p>Estate planning was once a buzz phrase reserved only for the wealthy. But that’s just no
+                        longer the case. Estate planning is important for every family, individual and business.
+                        Anyone who has assets, no matter how small, or wants their medical wishes carried out should
+                        have an estate plan.
+                    </p>
+                    <nav class="articleDisplaySub">
+                        <ol>
+                            <li>FACEBOOK</li>
+                            <li>TWITTER</li>
+                            <li>LINKEDIN</li>
+                        </ol>
+                    </nav>
+                </article>
+            </main>
+
+
+            <main class="expandedEventTwo">
+                <header>
+                    <h1>Halo Animal Shelter Supply Drive</h1>
+                    <time datetime=">2019-12-13">December 13, 2019</time>
+                </header>
+                <section>
+                    <h3>Date: Sept 20</h3>
+                    <h3>Time: 11:30 - 1:00 PM</h3>
+                    <h3>Location: Washington Community Library</h3>
+                </section>
+                <article>
+                    <p>Estate planning was once a buzz phrase reserved only for the wealthy. But that’s just no
+                        longer the case. Estate planning is important for every family, individual and business.
+                        Anyone who has assets, no matter how small, or wants their medical wishes carried out should
+                        have an estate plan.
+                    </p>
+                    <p>Estate planning was once a buzz phrase reserved only for the wealthy. But that’s just no
+                        longer the case. Estate planning is important for every family, individual and business.
+                        Anyone who has assets, no matter how small, or wants their medical wishes carried out should
+                        have an estate plan.
+                    </p>
+                    <nav class="articleDisplaySub">
+                        <ol>
+                            <li>FACEBOOK</li>
+                            <li>TWITTER</li>
+                            <li>LINKEDIN</li>
+                        </ol>
+                    </nav>
+                </article>
+            </main>
 
         </div>
-
-
-
+-->
         <div class="connectWrapper">
+            <div class = "upperConnect">
+                <img src="images/beach%20fam.jpg" alt="family in at beach with sunset" class="connectTopImage">
+                <div class="upperText">
+                <h4>LEARN HOW WE CAN HELP</h4>
+                <h1>Connect With Us</h1>
+                </div>
+            </div>
 
+            <div class = "LowerConnect">
+                <div class="connectFormLeft">
+                    <p>While every conversation is different, you should expect to cover some general information
+                        and get a sense of what it’s like to collaborate with us.
+                    </p>
+                    <a id="emailLink" href="mailto:JonKimmel16@gmail.com?subject=%20I%20want%20to%20work%20with%20you!"
+                          rel="EMAIL">Our email is Jacklyn@aspire.com
+                    </a>
+                </div>
+
+                <div class="connectAddressRight">
+
+                </div>
+            </div>
         </div>
-
-
 
         <div class="loginWrapper">
 
         </div>
 
-
-
-
         <footer class="constantFooter">
-
+            <h4>Phoenix, Az 85302</h4>
+            <ol class="socialFooter">
+                <li><a href="https://www.linkedin.com" class="fa fa-linkedin"></a></li></li>
+                <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+                <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li> </li>
+            </ol>
+            <p>Site built by Jon Kimmel</p>
         </footer>
-
         <script src="index.js"></script>
     </body>
 </html>

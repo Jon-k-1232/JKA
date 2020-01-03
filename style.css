@@ -1,0 +1,325 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: "Abel", Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.constantHead{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+
+#companyName{
+    float: left;
+    width: 5em;
+    padding: 1rem 2rem;
+}
+
+
+#companyName a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#mainNavItems {
+    display: none;
+}
+
+
+.mainHomeImage {
+    display: flex;
+    object-fit: cover;
+    overflow: hidden;
+    height: 102vh;
+    width: 100%;
+    filter: brightness(55%);
+}
+
+
+/* hamburger css*/
+.hamIcon {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 2em;
+    top: 35%;
+}
+
+/*hamburger*/
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+.mainNavItems{
+    display:none;
+}
+
+
+.mainNavItems.toggleCls {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 7.3em;
+    margin-top: 9em;
+    text-decoration: none;
+    line-height: 4em;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+}
+
+
+/*
+.mainNavItems.toggleCls{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 8.3em;
+    margin-top: 0;
+    text-decoration: none;
+    line-height: 4em;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+}
+*/
+
+.mainNavItems.toggleCls li a{
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+.mainTop, #upperAbout, .upperConnect{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainTop h1, #upperAbout h1{
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    color: #5c5c5c;
+}
+
+
+.mainQoute{
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.mainQoute h2{
+    font-size: 49px;
+    width: 5em;
+    margin: 1em auto 0 auto;
+    font-weight: 600;
+    content: open-quote;
+}
+
+.mainQoute p{
+    font-size: 28px;
+    width: 6em;
+    margin: auto;
+    line-height: 45px;
+}
+
+blockquote ::before {
+    content: open-quote;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    line-height: 1em;
+    vertical-align: bottom;
+    height: .5em;
+    color: rgba(36, 36, 36, 0.4);
+
+}
+
+p::before{
+    content: no-open-quote;
+}
+
+
+.partnerImageMain{
+    width:300px;
+    display: block;
+}
+
+
+.visionImageMain{
+    width:300px;
+    display: block;
+}
+
+#partnerHeader, #visionHeader{
+    font-weight: 700;
+    color: #242424;
+    font-size: 26px;
+    text-align: center;
+}
+
+#partnerDetails, #visionDetails{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#visionDetails{
+    text-align: right;
+}
+
+.middleBoxHome, .endBoxHome{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+
+.constantFooter{
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.constantFooter h4{
+    font-size:18px;
+    padding: 0px 0px 0px 1em;
+}
+
+.socialFooter li{
+    list-style-type: none;
+    margin: 8px;
+    padding: 0;
+}
+
+.fa {
+    padding: 7px;
+    font-size: 26px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #cda577;
+}
+
+.fa::before{
+    color: white;
+}
+
+.socialFooter{
+    display: inline-flex;
+}
+
+footer p{
+    padding: 1em;
+}
+
+/************ ABOUT MOBILE************/
+
+.lowerAbout{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutStarsImage, .aboutCanyonImage {
+    object-fit: unset;
+    overflow: hidden;
+    height: 102vh;
+    width: 100%;
+}
+
+
+.crowImage, .employeeOneImage, .employeeTwoImage, .employeeThreeImage, .employeeFourImage,
+.employeeFiveImage, .employeeSixImage{
+    width: 300px;
+}
+
+.teamMembers div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5em 0px 2.5em 0px;
+}
+
+.teamMembers div h3{
+    margin: 11px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+.teamMembers div p{
+    font-weight: 600;
+    color: #cda577;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.subNavAbout{
+    margin: 2.5em 0px 2.5em 0;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width:2em;
+    color: #cda577;
+}
+
+#aboutSub, #cultureSub{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutSub a, #cultureSub a{
+    text-decoration: none;
+    color: #cda577;
+}
+
+
+
+
+/******/
+
+.connectTopImage {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.upperText{
+    position: absolute;
+    text-align: center;
+    color: #2a60a7
+}
