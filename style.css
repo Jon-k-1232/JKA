@@ -106,7 +106,7 @@ body{
     text-decoration: none;
 }
 
-.mainTop, #upperAbout, .upperConnect{
+.mainTop, #upperAbout, .upperConnect, .loginTop{
     height: 100vh;
     flex-direction: column;
     display: flex;
@@ -310,7 +310,7 @@ hr{
 
 /******/
 
-.connectTopImage {
+.connectTopImage, .loginImage {
     object-fit: cover;
     overflow: hidden;
     width: 100%;
@@ -334,4 +334,10 @@ hr{
 .connectAddress{
     margin: 1em 2em 3em 2em;
     letter-spacing: 2px;
+}
+
+
+.loginTop h1{
+    position: absolute;
+    text-align: center;
 }
