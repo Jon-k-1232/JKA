@@ -330,3 +330,8 @@ hr{
     letter-spacing: 2px;
     color: #5C5c5C;
 }
+
+.connectAddress{
+    margin: 1em 2em 3em 2em;
+    letter-spacing: 2px;
+}
