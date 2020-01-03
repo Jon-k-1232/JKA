@@ -323,3 +323,10 @@ hr{
     text-align: center;
     color: #2a60a7
 }
+
+#connectPhrase{
+    margin: 3em 2em 3em 2em;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #5C5c5C;
+}
