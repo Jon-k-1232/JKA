@@ -11,11 +11,6 @@
 
 
 
-
-
-
-
-
 /**************************************////// Events Page \\\\\\***********************************/
 
 
@@ -207,7 +202,7 @@ function cultureDisplay() {
     `);
 
     $('#lowerAbout').append(`
-        <h4>
+        <h4 id="cultureStatement">
             <strong>
                 THROUGH 40 YEARS OF FINANCIAL PLANNING EXPERIENCE WITH INTEGRITY, WE HELP OUR CLIENTS
                 GROW AND PRESERVE THEIR WEALTH LONG TERM. WHETHER YOU ARE LOOKING FORWARD TO RETIREMENT,
@@ -215,9 +210,9 @@ function cultureDisplay() {
                 YOU CREATE SOUND FINANCIAL STRATEGIES WITH EXTRAORDINARY PERSONAL SERVICE.
             </strong>
         </h4>
-            <h2>Benefits of Working With Us</h2>
-            <h3>We strive to exceed your expectations every day.</h3>
-            <p>
+            <h2 id="beni">Benefits of Working With Us</h2>
+            <h3 id="strive">We strive to exceed your expectations every day.</h3>
+            <p id="promises">
                 Our philosophy focuses on building and maintaining confident relationships. We focus on the
                 client experience through competent professional advice, fine-tuning financial goals, transparent
                 communication, and customized personal service.

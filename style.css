@@ -73,13 +73,14 @@ body{
     z-index: 2;
     background-color: #ffffff;
     width: 7.3em;
-    margin-top: 9em;
+    margin-top: 7em;
     text-decoration: none;
     line-height: 4em;
     list-style-type: none;
     position: absolute;
     right: 0;
     border-radius: 3px;
+    box-shadow: 0px 5px 12px 5px #5c5c5c;
 }
 
 
@@ -247,7 +248,7 @@ footer p{
 }
 
 .aboutStarsImage, .aboutCanyonImage {
-    object-fit: unset;
+    object-fit: cover;
     overflow: hidden;
     height: 102vh;
     width: 100%;
@@ -340,4 +341,61 @@ hr{
 .loginTop h1{
     position: absolute;
     text-align: center;
+    color: #f9f9f9;
+}
+
+
+
+
+/***********culture**************************/
+
+#cultureStatement{
+    margin: 4em 2em 5em 2em;
+    font-size: 15px;
+    line-height: 2em;
+    text-align: center;
+    color: #5c5c5c;
+}
+
+#beni{
+    font-size: 29px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #5c5c5c;
+}
+
+#strive{
+    text-align: justify;
+    margin: 0px 10px 2em 10px;
+    font-weight: 100;
+}
+
+
+#promises{
+    color: #5c5c5c;
+    margin: 2em 1em 3em 1em;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/*********login button*******************/
+
+.loginBottom{
+    text-align: center;
+    margin: 4em 1em 4em 1em;
+}
+
+
+#logIn{
+    background: #cda577;
+    border-radius: 23px;
+    box-shadow: -1px 4px 11px #5c5c5c;
+    color: white;
+    font-family: "Abel", Helvetica, sans-serif;
+    font-size: 18px;
+    height: 2.5em;
+    width: 7em;
+    border: none;
 }
