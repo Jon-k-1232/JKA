@@ -202,7 +202,7 @@ function cultureDisplay() {
     $(cultureDisplaySub);
 
     $('#upperAbout').append(`
-            <img src="images/canyon.jpg" alt="Looking up from narrow canyon." class="aboutCanyonImage">
+            <img src="Images/canyon.jpg" alt="Looking up from narrow canyon." class="aboutCanyonImage">
             <h1>We serve as your financial compass helping customize a plan to fit your goals</h1>
     `);
 
@@ -237,7 +237,7 @@ function teamDisplay() {
     $(cultureDisplaySub);
 
     $('#upperAbout').append(`
-        <img src="images/stars.jpg" alt="Looking at stars from narrow canyon." class="aboutStarsImage">
+        <img src="Images/stars.jpg" alt="Looking at stars from narrow canyon." class="aboutStarsImage">
         <h1>Your Valuable Team at<br>
             Kimmel Financial Advisors</h1>
     `);
@@ -245,43 +245,43 @@ function teamDisplay() {
     $('#lowerAbout').append(`
         <section class="teamMembers">
             <div class="crow">
-                <img src="images/dc.jpg" alt="memorial in Washington D.C." class="CrowImage">
+                <img src="Images/dc.jpg" alt="memorial in Washington D.C." class="CrowImage">
                 <h3>James F. Kimmel</h3>
                 <p>PRESIDENT</p>
             </div>
             
             <div class="employeeOne">
-                <img src="images/coin.jpg" alt="money sitting on table" class="employeeOneImage">
+                <img src="Images/coin.jpg" alt="money sitting on table" class="employeeOneImage">
                 <h3>Misty Segafredo</h3>
                 <p>OFFICE MANAGER</p>
             </div>
             
             <div class="employeeTwo">
-                <img src="images/cacti.jpg" alt="saguaro cactus at night" class="employeeTwoImage">
+                <img src="Images/cacti.jpg" alt="saguaro cactus at night" class="employeeTwoImage">
                 <h3>Sidney Brinn</h3>
                 <p>RECEPTIONIST</p>
             </div>
             
             <div class="employeeThree">
-                <img src="images/beach.jpg" alt="waves crashing on rocks" class="employeeThreeImage">
+                <img src="Images/beach.jpg" alt="waves crashing on rocks" class="employeeThreeImage">
                 <h3>Katrina Will</h3>
                 <p>ADMINISTRATIVE ASSISTANT</p>
             </div>
             
             <div class="employeeFour">
-                <img src="images/disney.jpg" alt="mickey ears on girl at disneyland" class="employeeFourImage">
+                <img src="Images/disney.jpg" alt="mickey ears on girl at disneyland" class="employeeFourImage">
                 <h3>Jaclyn Kimmel-Cano</h3>
                 <p>SENIOR MARKETING MANAGER</p>
             </div>
             
             <div class="employeeFive">
-                <img src="images/starWars.jpg" alt="starTroopers" class="employeeFiveImage">
+                <img src="Images/starWars.jpg" alt="starTroopers" class="employeeFiveImage">
                 <h3>Jaimee Kimmel-Trujillo</h3>
                 <p>INSURANCE AGENT</p>
             </div>
             
             <div class="employeeSix">
-                <img src="images/swan.jpg" alt="swan in pond." class="employeeSixImage">
+                <img src="Images/swan.jpg" alt="swan in pond." class="employeeSixImage">
                 <h3>Marsha Johnson</h3>
                 <p>CPA</p>
             </div> 
