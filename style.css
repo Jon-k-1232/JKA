@@ -28,7 +28,7 @@ body{
 }
 
 
-#mainNavItems {
+.mainNavItems {
     display: none;
 }
 
@@ -289,6 +289,7 @@ footer p{
     display: flex;
     justify-content: center;
     margin-right: 1em;
+    font-size: 1.5em;
 }
 
 hr{
@@ -444,6 +445,10 @@ hr{
     margin-left: 10em;
 }
 
+.visionText{
+    margin-right: 6em;
+}
+
 
 
 
@@ -462,7 +467,6 @@ hr{
     text-align: center;
 }
 
-
 .teamMembers div{
     display: inline-block;
     margin: 1em .5em 4em .5em;
@@ -478,6 +482,35 @@ hr{
     font-size: 3em;
     margin: 0em 1em 0em 1em;
 }
+
+
+    .mainNavItems {
+        display: inline-flex;
+        position: absolute;
+        top: 7em;
+        right: 1em;
+        list-style-type: none;
+    }
+
+    #about, #connect, #login{
+        margin: 0em 1em 0em 1em;
+        font-size: 1.3em;
+    }
+
+
+    .mainNavItems li a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+    .hamIcon{
+        display: none;
+    }
+
+    #login{
+
+    }
 
 
 }
