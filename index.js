@@ -3,9 +3,6 @@
 
 
 
-
-
-
 /**************************************////// Connect Page \\\\\\***********************************/
 
 
@@ -385,6 +382,7 @@ function initializeStart() {
     connectDisplay();
     loginDisplay();
     toggleMenu();
+    scrollClicked();
     $('.aboutWrapper, .insightsWrapper, .eventsWrapper, .connectWrapper, .loginWrapper').hide();
 }
 
