@@ -417,12 +417,22 @@ hr{
 }
 
 
+#partnerDetails{
+    text-align: right;
+    margin-right: 6em;
+}
+
+#partnerHeader{
+    text-align: left;
+}
+
+
 .visionText{
     margin-left: 10em;
 }
 
 .visionText{
-    margin-right: 6em;
+    margin-right: 7em;
 }
 
 
