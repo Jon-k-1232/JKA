@@ -231,7 +231,7 @@ function teamDisplay() {
     $('#upperAbout').append(`
         <img src="Images/stars.jpg" alt="Looking at stars from narrow canyon." class="aboutStarsImage">
         <h1>Your Valuable Team at<br>
-            Jim Kimmel & Associates</h1>
+            James F. Kimmel & Associates</h1>
     `);
 
     $('#lowerAbout').append(`
