@@ -7,6 +7,10 @@ body{
     background-color: #ffffff;
 }
 
+.keywordSearch{
+    display: none;
+}
+
 .constantHead{
     position: absolute;
     width: 100%;
