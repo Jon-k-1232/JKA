@@ -199,14 +199,14 @@ function cultureDisplay() {
     `);
 
     $('#lowerAbout').append(`
-        <h4 id="cultureStatement">
-            <strong>
-                THROUGH 40 YEARS OF FINANCIAL PLANNING EXPERIENCE WITH INTEGRITY, WE HELP OUR CLIENTS
-                GROW AND PRESERVE THEIR WEALTH LONG TERM. WHETHER YOU ARE LOOKING FORWARD TO RETIREMENT,
-                PAYING OFF COLLEGE DEBT, CARING FOR AN OLDER PARENT, OR PLANNING FOR THE FUTURE, WE HELP
-                YOU CREATE SOUND FINANCIAL STRATEGIES WITH EXTRAORDINARY PERSONAL SERVICE.
-            </strong>
-        </h4>
+           <!-- <h4 id="cultureStatement">
+                <strong>
+                    THROUGH 40 YEARS OF FINANCIAL PLANNING EXPERIENCE WITH INTEGRITY, WE HELP OUR CLIENTS
+                    GROW AND PRESERVE THEIR WEALTH LONG TERM. WHETHER YOU ARE LOOKING FORWARD TO RETIREMENT,
+                    PAYING OFF COLLEGE DEBT, CARING FOR AN OLDER PARENT, OR PLANNING FOR THE FUTURE, WE HELP
+                    YOU CREATE SOUND FINANCIAL STRATEGIES WITH EXTRAORDINARY PERSONAL SERVICE.
+                </strong>
+            </h4>-->
             <h2 id="beni">Benefits of Working With Us</h2>
             <h3 id="strive">We strive to exceed your expectations every day.</h3>
             <p id="promises">
